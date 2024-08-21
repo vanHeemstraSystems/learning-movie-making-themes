@@ -7,32 +7,32 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nimport { renderChart } from \"@trebor/zoomable-voronoi-treemap\"\n\n\n\n\n\n\n\nmd`### Themes`\n\n\n\n\n\n\n\ndata = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/vanHeemstraSystems/learning-movie-making-themes/main/data/themes.json\"\n  );\n  return d3.hierarchy(flare).sum((d) =&gt; (d.children ? 0 : Math.random()));\n}\n\n\n\n\n\n\n\n__topicsChart = {\n  return renderChart({\n    data,\n    size: { width, height: 400 }\n  });\n}\n\n\n\n\n\n\n\nMaster Screenwriting"
   },
   {
-    "objectID": "movie-breakdown.html",
-    "href": "movie-breakdown.html",
-    "title": "Movie Breakdown",
+    "objectID": "movie-shooting.html",
+    "href": "movie-shooting.html",
+    "title": "Movie Shooting",
     "section": "",
-    "text": "About this site\nWe base our Theme: Master Movie Breakdown on Planning a Minimum Viable Nothing (MVN)."
+    "text": "About this site\nWe base our Theme: Master Movie Shooting on Planning a Minimum Viable Nothing (MVN)."
   },
   {
-    "objectID": "movie-breakdown.html#find-the-opportunities.",
-    "href": "movie-breakdown.html#find-the-opportunities.",
-    "title": "Movie Breakdown",
+    "objectID": "movie-shooting.html#find-the-opportunities.",
+    "href": "movie-shooting.html#find-the-opportunities.",
+    "title": "Movie Shooting",
     "section": "2. Find the Opportunities.",
-    "text": "2. Find the Opportunities.\nSee Learning Movie Breakdown\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+    "text": "2. Find the Opportunities.\nSee Learning Movie Shooting\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
   },
   {
-    "objectID": "SUMMARY.html",
-    "href": "SUMMARY.html",
-    "title": "Table of contents",
+    "objectID": "movie-planning.html",
+    "href": "movie-planning.html",
+    "title": "Movie Planning",
     "section": "",
-    "text": "Table of contents\n\nLearning Movie Making - Themes"
+    "text": "About this site\nWe base our Theme: Master Movie Planning on Planning a Minimum Viable Nothing (MVN)."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "objectID": "movie-planning.html#find-the-opportunities.",
+    "href": "movie-planning.html#find-the-opportunities.",
+    "title": "Movie Planning",
+    "section": "2. Find the Opportunities.",
+    "text": "2. Find the Opportunities.\nSee Learning Movie Planning\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
   },
   {
     "objectID": "movie-visualizing.html",
@@ -49,18 +49,32 @@
     "text": "2. Find the Opportunities.\nSee Learning Movie Visualizing\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
   },
   {
-    "objectID": "movie-planning.html",
-    "href": "movie-planning.html",
-    "title": "Movie Planning",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "About this site\nWe base our Theme: Master Movie Planning on Planning a Minimum Viable Nothing (MVN)."
+    "text": "About this site"
   },
   {
-    "objectID": "movie-planning.html#find-the-opportunities.",
-    "href": "movie-planning.html#find-the-opportunities.",
-    "title": "Movie Planning",
+    "objectID": "SUMMARY.html",
+    "href": "SUMMARY.html",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Table of contents\n\nLearning Movie Making - Themes"
+  },
+  {
+    "objectID": "movie-breakdown.html",
+    "href": "movie-breakdown.html",
+    "title": "Movie Breakdown",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Movie Breakdown on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "movie-breakdown.html#find-the-opportunities.",
+    "href": "movie-breakdown.html#find-the-opportunities.",
+    "title": "Movie Breakdown",
     "section": "2. Find the Opportunities.",
-    "text": "2. Find the Opportunities.\nSee Learning Movie Planning\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+    "text": "2. Find the Opportunities.\nSee Learning Movie Breakdown\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
   },
   {
     "objectID": "screenwriting.html",
